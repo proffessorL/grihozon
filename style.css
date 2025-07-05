@@ -1,0 +1,107 @@
+/* Reset default margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Navbar container */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 60px;
+  background-color: #f5f5f5; /* Light background, you can change */
+}
+
+/* Logo style */
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+/* Navigation links */
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+
+.nav-links li a:hover {
+  color: #00704A; /* A green shade on hover */
+}
+
+
+
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 60px;
+  background-color: #f0f9f4; /* light green tint, adjust as you like */
+}
+
+.hero-text {
+  max-width: 50%;
+}
+
+.hero-text h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  color: #00704A; /* dark green */
+}
+
+.hero-text p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+  color: #555;
+}
+
+.btn {
+  display: inline-block;
+  padding: 15px 30px;
+  background-color: #00704A;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.btn:hover {
+  background-color: #005f3c;
+}
+
+.hero-image img {
+  max-width: 300px;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.icon-circle {
+  width: 100px;
+  height: 100px;
+  background-color: #e0f4ec; /* circle background */
+  border-radius: 50%; /* makes it round */
+  display: flex; /* centers the icon inside */
+  align-items: center; /* vertical center */
+  justify-content: center; /* horizontal center */
+  overflow: hidden; /* if your icon is too big, it won't spill out */
+  margin: 0 auto 20px; /* centers the circle and adds space below */
+}
+
+.icon-circle img {
+  width: 80%; /* icon size relative to the circle */
+  height: 80%; /* keeps icon inside the circle */
+  object-fit: contain; /* fits icon without stretching */
+}
