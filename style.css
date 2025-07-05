@@ -175,3 +175,21 @@ body {
   background-color: #005f3c;
 }
 
+.product-image-circle {
+  width: 120px;
+  height: 120px;
+  background-color: #e0f4ec;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  margin: 0 auto 20px;
+}
+
+.product-image-circle img {
+  width: 80%;
+  height: 80%;
+  object-fit: contain;
+}
+
